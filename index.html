@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Diseño web tipo blog - para practica</title>
+    <title>Intranet ExCle</title>
     <script src="https://kit.fontawesome.com/84ab7ab725.js" crossorigin="anonymous"></script>
     <!--<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>-->
 
@@ -27,11 +27,11 @@
 
                 <nav>
                     <ul>
-                        <li><a href="/index.html"> <i class="fas fa-home"></i>Inicio</a></li>
+                        <li class="menu-selected"><a href="/index.html" class="text-menu-selected">
+                        <i class="fas fa-home"></i>Inicio</a></li>
                         <li><a href="/cumpleanios.html"> <i class="fas fa-home"></i>Cumpleaños</a></li>
-                        <li><a href="#"> <i class="fab fa-youtube"> </i>Tutoriales</a></li>
-                        <li class="menu-selected"><a href="blog.html" class="text-menu-selected"> 
-                        <i class="fas fa-file-alt"></i>Blog</a></li>
+                        <li><a href="/articulos.html"> <i class="fab fa-youtube"> </i>Artículos</a></li>
+                        <li><a href="blog.html" class="text-menu-selected"><i class="fas fa-file-alt"></i>Blog</a></li>
                         <li><a href="#"> <i class="fas fa-headset"></i> Contacto</a></li>
                     </ul>
                 </nav>
@@ -58,6 +58,8 @@
         </div>
     </div>
 
+   <!--Filtro-->
+   
     <div class="container-post">
 
         <input type="radio" id="TODOS" name="categories" value="TODOS" checked="">
@@ -108,43 +110,43 @@
 
             </div>
 
-            <div class="post" data-category="DESA">
+            <div class="post" data-category="GENERAL">
 
-                <div class="ctn-img"><img src="img/articulos/integrando-redes-sociales-WhatsApp-Messenger.jpg" alt=""></div>
-                <h2>¡WOW!😍 Cómo</h2>
-                <a href="#"><button>Info</button></a>
-
-            </div>
-
-            <div class="post" data-category="DESA">
-
-                <div class="ctn-img"><img src="img/articulos/Indicador-de-scroll.jpg" alt=""></div>
-                <h2>Como hacer</h2>
-                <a href="#"><button>Info</button></a>
+                <div class="ctn-img"><img src="img/articulos/teams.jpg" alt=""></div>
+                <h2>Teams</h2>
+                <a target=_blank href="https://login.microsoftonline.com/"><button>Info</button></a>
 
             </div>
 
-            <div class="post" data-category="QA">
+            <div class="post" data-category="GENERAL">
 
-                <div class="ctn-img"><img src="img/articulos/modo-oscuro-para-tu-web.jpg" alt=""></div>
-                <h2>MODO OSCURO</h2>
-                <a href="#"><button>Info</button></a>
+                <div class="ctn-img"><img src="img/articulos/confluence-vector-logo.png" alt=""></div>
+                <h2>Confluence</h2>
+                <a target=_blank href="https://ex-cle.atlassian.net/wiki"><button>Info</button></a>
+
+            </div>
+
+            <div class="post" data-category="GENERAL">
+
+                <div class="ctn-img"><img src="img/articulos/jiralogo.png" alt=""></div>
+                <h2>JIRA</h2>
+                <a target=_blank href="https://www.atlassian.com/es/software/jira"><button>Info</button></a>
 
             </div>
             
-            <div class="post" data-category="QA">
+            <div class="post" data-category="GENERAL">
 
-                <div class="ctn-img"><img src="img/articulos/modo-oscuro-para-tu-web.jpg" alt=""></div>
-                <h2>MODO OSCURO</h2>
-                <a href="#"><button>Info</button></a>
+                <div class="ctn-img"><img src="img/articulos/ex-cle%20logo.png" alt=""></div>
+                <h2>ExCle</h2>
+                <a target=_blank href="http://ex-cle.com/"><button>Info</button></a>
 
             </div>
             
             <div class="post" data-category="PROD">
 
-                <div class="ctn-img"><img src="img/articulos/modo-oscuro-para-tu-web.jpg" alt=""></div>
-                <h2>MODO OSCURO</h2>
-                <a href="#"><button>Info</button></a>
+                <div class="ctn-img"><img src="img/articulos/beneficios%207D.PNG" alt=""></div>
+                <h2>7d</h2>
+                <a target=_blank href="https://beneficios7d.com/"><button>Info</button></a>
 
             </div>
             
@@ -211,7 +213,8 @@
 
     </div>
 
-
+    <!--Footer-->
+    
     <div class="container-footer">	
 
         <footer>
